@@ -101,7 +101,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(557, 742);
+            this.btn_back.Location = new System.Drawing.Point(556, 734);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -113,7 +113,7 @@
             // btn_save
             // 
             this.btn_save.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_save.Location = new System.Drawing.Point(190, 742);
+            this.btn_save.Location = new System.Drawing.Point(189, 734);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(100, 42);
@@ -148,7 +148,7 @@
             // btn_reset
             // 
             this.btn_reset.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_reset.Location = new System.Drawing.Point(373, 742);
+            this.btn_reset.Location = new System.Drawing.Point(372, 734);
             this.btn_reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(100, 42);
@@ -187,7 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 796);
+            this.ClientSize = new System.Drawing.Size(804, 850);
             this.ControlBox = false;
             this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);

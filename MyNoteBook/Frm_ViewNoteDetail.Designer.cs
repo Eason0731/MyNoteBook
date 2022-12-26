@@ -36,8 +36,8 @@
             this.txtContent = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtClassification = new System.Windows.Forms.TextBox();
-            this.txtDate = new System.Windows.Forms.TextBox();
+            this.lblClassification = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -121,28 +121,23 @@
             this.label4.TabIndex = 28;
             this.label4.Text = "笔记分类：";
             // 
-            // txtClassification
+            // lblClassification
             // 
-            this.txtClassification.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtClassification.Location = new System.Drawing.Point(165, 582);
-            this.txtClassification.Margin = new System.Windows.Forms.Padding(4);
-            this.txtClassification.Multiline = true;
-            this.txtClassification.Name = "txtClassification";
-            this.txtClassification.ReadOnly = true;
-            this.txtClassification.Size = new System.Drawing.Size(343, 34);
-            this.txtClassification.TabIndex = 29;
-            this.txtClassification.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.lblClassification.AutoSize = true;
+            this.lblClassification.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblClassification.Location = new System.Drawing.Point(161, 586);
+            this.lblClassification.Name = "lblClassification";
+            this.lblClassification.Size = new System.Drawing.Size(0, 20);
+            this.lblClassification.TabIndex = 30;
             // 
-            // txtDate
+            // lblDate
             // 
-            this.txtDate.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtDate.Location = new System.Drawing.Point(165, 661);
-            this.txtDate.Margin = new System.Windows.Forms.Padding(4);
-            this.txtDate.Multiline = true;
-            this.txtDate.Name = "txtDate";
-            this.txtDate.ReadOnly = true;
-            this.txtDate.Size = new System.Drawing.Size(343, 34);
-            this.txtDate.TabIndex = 29;
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblDate.Location = new System.Drawing.Point(161, 664);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(0, 20);
+            this.lblDate.TabIndex = 31;
             // 
             // Frm_ViewNoteDetail
             // 
@@ -150,8 +145,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(809, 837);
             this.ControlBox = false;
-            this.Controls.Add(this.txtDate);
-            this.Controls.Add(this.txtClassification);
+            this.Controls.Add(this.lblDate);
+            this.Controls.Add(this.lblClassification);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
@@ -179,7 +174,7 @@
         public System.Windows.Forms.TextBox txtContent;
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
-        public System.Windows.Forms.TextBox txtClassification;
-        public System.Windows.Forms.TextBox txtDate;
+        public System.Windows.Forms.Label lblClassification;
+        public System.Windows.Forms.Label lblDate;
     }
 }

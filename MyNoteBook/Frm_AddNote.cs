@@ -22,7 +22,7 @@ namespace My_NoteBook
         private void Frm_AddNote_Load(object sender, EventArgs e)
         {
             cmbClassification.SelectedIndex = 0; //将第一项作为默认选项，显示在下拉列表中
-            cmbCompany.SelectedIndex = 1;
+            //cmbCompany.SelectedIndex = 1;
 
         }  
 
@@ -42,7 +42,8 @@ namespace My_NoteBook
 
             string Title = "";
             string Content = "";
-            if ( txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "" || cmbCompany.Text == "")
+            //if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "" || cmbCompany.Text == "")
+            if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "")
             {
                 MessageBox.Show("标题,内容或者分类中有空值,空的笔记没有任何意义,是不会添加的！");
             }
@@ -77,8 +78,8 @@ namespace My_NoteBook
                 // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
                 // 显示的结果还是会显示为一个单引号的值
 
-                string insStr = "insert into [Note] ([title],[content],[datetime],[class],[company]) values ('" + Title + "' , '" + Content + "', '" + dateTimePicker1.Value.ToShortDateString() + "', '" + cmbClassification.Text + "','"+cmbCompany.Text+"')";
-
+                //string insStr = "insert into [Note] ([title],[content],[datetime],[class],[company]) values ('" + Title + "' , '" + Content + "', '" + dateTimePicker1.Value.ToShortDateString() + "', '" + cmbClassification.Text + "','"+cmbCompany.Text+"')";
+                string insStr = "insert into [Note] ([title],[content],[datetime],[class]) values ('" + Title + "' , '" + Content + "', '" + dateTimePicker1.Value.ToShortDateString() + "', '" + cmbClassification.Text + "')";
                 //将表和字段名都加上中括号，否则可能会出现语法错误
                 OleDbCommand myCmd = new OleDbCommand(insStr, myconn);
                 myCmd.ExecuteNonQuery();
@@ -104,6 +105,11 @@ namespace My_NoteBook
             {
                 ((TextBox)sender).SelectAll();
             }
+        }
+
+        private void cmbClassification_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         

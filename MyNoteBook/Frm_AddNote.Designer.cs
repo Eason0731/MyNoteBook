@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_AddNote));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
@@ -40,8 +41,6 @@
             this.btn_reset = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbClassification = new System.Windows.Forms.ComboBox();
-            this.cmbCompany = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -93,7 +92,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(161, 674);
+            this.dateTimePicker1.Location = new System.Drawing.Point(164, 646);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
@@ -127,7 +126,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(36, 678);
+            this.label3.Location = new System.Drawing.Point(39, 653);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -142,9 +141,9 @@
             this.label4.Location = new System.Drawing.Point(236, 514);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(363, 20);
+            this.label4.Size = new System.Drawing.Size(297, 20);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Be Careful：最多输入65530个字符！";
+            this.label4.Text = "Tips：最多输入65530个字符！";
             // 
             // btn_reset
             // 
@@ -154,7 +153,7 @@
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(100, 42);
             this.btn_reset.TabIndex = 9;
-            this.btn_reset.Text = "重置";
+            this.btn_reset.Text = "清空";
             this.btn_reset.UseVisualStyleBackColor = true;
             this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
@@ -180,41 +179,16 @@
             "其他类"});
             this.cmbClassification.Location = new System.Drawing.Point(161, 581);
             this.cmbClassification.Name = "cmbClassification";
-            this.cmbClassification.Size = new System.Drawing.Size(270, 23);
+            this.cmbClassification.Size = new System.Drawing.Size(268, 23);
             this.cmbClassification.TabIndex = 13;
-            // 
-            // cmbCompany
-            // 
-            this.cmbCompany.DropDownHeight = 116;
-            this.cmbCompany.FormattingEnabled = true;
-            this.cmbCompany.IntegralHeight = false;
-            this.cmbCompany.Items.AddRange(new object[] {
-            "AutoDesk",
-            "中国电信"});
-            this.cmbCompany.Location = new System.Drawing.Point(161, 628);
-            this.cmbCompany.Name = "cmbCompany";
-            this.cmbCompany.Size = new System.Drawing.Size(270, 23);
-            this.cmbCompany.TabIndex = 33;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 12F);
-            this.label6.Location = new System.Drawing.Point(39, 627);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 20);
-            this.label6.TabIndex = 32;
-            this.label6.Text = "所在公司：";
+            this.cmbClassification.SelectedIndexChanged += new System.EventHandler(this.cmbClassification_SelectedIndexChanged);
             // 
             // Frm_AddNote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 804);
+            this.ClientSize = new System.Drawing.Size(801, 796);
             this.ControlBox = false;
-            this.Controls.Add(this.cmbCompany);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_reset);
@@ -228,9 +202,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_AddNote";
-            this.ShowIcon = false;
             this.Text = "添加笔记";
             this.Load += new System.EventHandler(this.Frm_AddNote_Load);
             this.ResumeLayout(false);
@@ -252,7 +226,5 @@
         public System.Windows.Forms.Button btn_reset;
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbClassification;
-        private System.Windows.Forms.ComboBox cmbCompany;
-        public System.Windows.Forms.Label label6;
     }
 }

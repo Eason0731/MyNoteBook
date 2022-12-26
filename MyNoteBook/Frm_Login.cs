@@ -11,7 +11,6 @@ namespace My_NoteBook
 {
     public partial class Frm_Login : Form
     {
-        int whfsb = 0;
 
         public Frm_Login()
         {
@@ -31,16 +30,8 @@ namespace My_NoteBook
             {
                 
                 MessageBox.Show("用户名或密码错误！");
-                whfsb++;
-                //txtUserName.Text = ""; 输错不清除用户名信息
-
+                txtUserName.Text = "";
                 txtPassWord.Text = "";
-
-                if (whfsb == 3) 
-                {
-                    MessageBox.Show("连续三次输错密码,你傻的和武会峰一样啊,再见低智商!");
-                    this.Close();
-                }
                 
             }
 
@@ -54,7 +45,7 @@ namespace My_NoteBook
 
         private void btn_help_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("用户名和密码都是admin");
+            MessageBox.Show("用户名和密码都是admin,不分大小写");
         }
 
         private void btn_exit_Click(object sender, EventArgs e)

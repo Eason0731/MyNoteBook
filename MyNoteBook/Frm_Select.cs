@@ -25,13 +25,6 @@ namespace My_NoteBook
             //CalDate();
         }
 
-        private void btn_choice_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Frm_Main frm1 = new Frm_Main();
-            frm1.Show();
-        }
-
         private void btn_gotoAdd_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -49,13 +42,6 @@ namespace My_NoteBook
         private void btn_exit_Click(object sender, EventArgs e)
         {
             Environment.Exit(0); //彻底退出程序
-        }
-
-        private void btn_viewDate_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Frm_Work frm4 = new Frm_Work();
-            frm4.Show();
         }
 
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_View));
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_selectAll = new System.Windows.Forms.Button();
             this.btn_update = new System.Windows.Forms.Button();
@@ -42,8 +43,6 @@
             this.btn_cleanresult = new System.Windows.Forms.Button();
             this.cmbClassification = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cmbCompany = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +50,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(791, 756);
+            this.btn_back.Location = new System.Drawing.Point(792, 717);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(123, 49);
@@ -63,7 +62,7 @@
             // btn_selectAll
             // 
             this.btn_selectAll.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_selectAll.Location = new System.Drawing.Point(41, 756);
+            this.btn_selectAll.Location = new System.Drawing.Point(42, 717);
             this.btn_selectAll.Margin = new System.Windows.Forms.Padding(4);
             this.btn_selectAll.Name = "btn_selectAll";
             this.btn_selectAll.Size = new System.Drawing.Size(156, 49);
@@ -75,7 +74,7 @@
             // btn_update
             // 
             this.btn_update.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_update.Location = new System.Drawing.Point(436, 756);
+            this.btn_update.Location = new System.Drawing.Point(437, 717);
             this.btn_update.Margin = new System.Windows.Forms.Padding(4);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(123, 49);
@@ -87,7 +86,7 @@
             // btn_del
             // 
             this.btn_del.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_del.Location = new System.Drawing.Point(619, 756);
+            this.btn_del.Location = new System.Drawing.Point(620, 717);
             this.btn_del.Margin = new System.Windows.Forms.Padding(4);
             this.btn_del.Name = "btn_del";
             this.btn_del.Size = new System.Drawing.Size(123, 49);
@@ -99,7 +98,7 @@
             // btn_select
             // 
             this.btn_select.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_select.Location = new System.Drawing.Point(502, 489);
+            this.btn_select.Location = new System.Drawing.Point(502, 419);
             this.btn_select.Margin = new System.Windows.Forms.Padding(4);
             this.btn_select.Name = "btn_select";
             this.btn_select.Size = new System.Drawing.Size(161, 49);
@@ -156,7 +155,7 @@
             // btn_viewnote
             // 
             this.btn_viewnote.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_viewnote.Location = new System.Drawing.Point(257, 756);
+            this.btn_viewnote.Location = new System.Drawing.Point(258, 717);
             this.btn_viewnote.Margin = new System.Windows.Forms.Padding(4);
             this.btn_viewnote.Name = "btn_viewnote";
             this.btn_viewnote.Size = new System.Drawing.Size(123, 49);
@@ -168,7 +167,7 @@
             // btn_clean
             // 
             this.btn_clean.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_clean.Location = new System.Drawing.Point(502, 562);
+            this.btn_clean.Location = new System.Drawing.Point(502, 513);
             this.btn_clean.Margin = new System.Windows.Forms.Padding(4);
             this.btn_clean.Name = "btn_clean";
             this.btn_clean.Size = new System.Drawing.Size(161, 49);
@@ -180,7 +179,7 @@
             // btn_cleanresult
             // 
             this.btn_cleanresult.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_cleanresult.Location = new System.Drawing.Point(697, 489);
+            this.btn_cleanresult.Location = new System.Drawing.Point(697, 419);
             this.btn_cleanresult.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cleanresult.Name = "btn_cleanresult";
             this.btn_cleanresult.Size = new System.Drawing.Size(161, 49);
@@ -215,31 +214,6 @@
             this.label5.TabIndex = 28;
             this.label5.Text = "笔记分类：";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(498, 415);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 20);
-            this.label3.TabIndex = 30;
-            this.label3.Text = "所在公司：";
-            // 
-            // cmbCompany
-            // 
-            this.cmbCompany.DropDownHeight = 116;
-            this.cmbCompany.FormattingEnabled = true;
-            this.cmbCompany.IntegralHeight = false;
-            this.cmbCompany.Items.AddRange(new object[] {
-            "AutoDesk",
-            "中国电信",
-            "全部"});
-            this.cmbCompany.Location = new System.Drawing.Point(620, 416);
-            this.cmbCompany.Name = "cmbCompany";
-            this.cmbCompany.Size = new System.Drawing.Size(270, 23);
-            this.cmbCompany.TabIndex = 31;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -255,10 +229,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 844);
+            this.ClientSize = new System.Drawing.Size(937, 836);
             this.ControlBox = false;
-            this.Controls.Add(this.cmbCompany);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_cleanresult);
@@ -275,9 +247,9 @@
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_View";
-            this.ShowIcon = false;
             this.Text = "查询笔记";
             this.Load += new System.EventHandler(this.Frm_View_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -301,8 +273,6 @@
         private System.Windows.Forms.Button btn_cleanresult;
         private System.Windows.Forms.ComboBox cmbClassification;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmbCompany;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

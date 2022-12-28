@@ -12,3 +12,22 @@ C:\MyNoteBook\MyNoteBook\obj\x86\Release\GenerateResource.read.1.tlog
 C:\MyNoteBook\MyNoteBook\obj\x86\Release\GenerateResource.write.1.tlog
 C:\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.exe
 C:\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\MyNoteBook.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\WinHtmlEditor.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\WinHtmlEditor.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.pdb

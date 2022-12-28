@@ -33,18 +33,18 @@
             this.btn_back = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtContent = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblClassification = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
+            this.txtContent = new WinHtmlEditor.HtmlEditor();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(41, 664);
+            this.label3.Location = new System.Drawing.Point(41, 761);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -54,7 +54,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(377, 756);
+            this.btn_back.Location = new System.Drawing.Point(810, 830);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -85,19 +85,6 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "标题：";
             // 
-            // txtContent
-            // 
-            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtContent.Location = new System.Drawing.Point(164, 121);
-            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContent.Multiline = true;
-            this.txtContent.Name = "txtContent";
-            this.txtContent.ReadOnly = true;
-            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtContent.Size = new System.Drawing.Size(637, 420);
-            this.txtContent.TabIndex = 27;
-            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
-            // 
             // txtTitle
             // 
             this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
@@ -106,7 +93,7 @@
             this.txtTitle.Multiline = true;
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.ReadOnly = true;
-            this.txtTitle.Size = new System.Drawing.Size(343, 34);
+            this.txtTitle.Size = new System.Drawing.Size(1400, 34);
             this.txtTitle.TabIndex = 26;
             this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
@@ -114,7 +101,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 12F);
-            this.label4.Location = new System.Drawing.Point(41, 586);
+            this.label4.Location = new System.Drawing.Point(41, 683);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 20);
@@ -125,7 +112,7 @@
             // 
             this.lblClassification.AutoSize = true;
             this.lblClassification.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblClassification.Location = new System.Drawing.Point(161, 586);
+            this.lblClassification.Location = new System.Drawing.Point(161, 683);
             this.lblClassification.Name = "lblClassification";
             this.lblClassification.Size = new System.Drawing.Size(0, 20);
             this.lblClassification.TabIndex = 30;
@@ -134,20 +121,39 @@
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblDate.Location = new System.Drawing.Point(161, 664);
+            this.lblDate.Location = new System.Drawing.Point(161, 761);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(0, 20);
             this.lblDate.TabIndex = 31;
+            // 
+            // txtContent
+            // 
+            this.txtContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtContent.BodyInnerHTML = null;
+            this.txtContent.BodyInnerText = null;
+            this.txtContent.EnterToBR = false;
+            this.txtContent.FontName = null;
+            this.txtContent.FontSize = WinHtmlEditor.FontSize.NA;
+            this.txtContent.Location = new System.Drawing.Point(165, 125);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ReadOnly = true;
+            this.txtContent.ShowStatusBar = true;
+            this.txtContent.ShowToolBar = true;
+            this.txtContent.ShowWb = true;
+            this.txtContent.Size = new System.Drawing.Size(1400, 521);
+            this.txtContent.TabIndex = 32;
+            this.txtContent.WebBrowserShortcutsEnabled = true;
             // 
             // Frm_ViewNoteDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 837);
+            this.ClientSize = new System.Drawing.Size(1619, 932);
+            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblClassification);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_back);
@@ -170,10 +176,10 @@
         public System.Windows.Forms.Button btn_back;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtContent;
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label lblClassification;
         public System.Windows.Forms.Label lblDate;
+        public WinHtmlEditor.HtmlEditor txtContent;
     }
 }

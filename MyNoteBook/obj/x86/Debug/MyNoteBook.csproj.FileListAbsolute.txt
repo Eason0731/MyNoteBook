@@ -70,3 +70,5 @@ C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x8
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Debug\WinHtmlEditor.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CopyComplete

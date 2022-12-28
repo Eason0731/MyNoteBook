@@ -63,6 +63,7 @@ namespace My_NoteBook
 
             }
 
+         
             if (txtContent.Text != "")
             {
                 string TempContent = "";
@@ -185,7 +186,7 @@ namespace My_NoteBook
                     //为查看准备数据
                     //frm_viewdetail.label4.Text = row["id"].ToString();
                     frm_viewdetail.txtTitle.Text = row["笔记标题"].ToString();
-                    frm_viewdetail.txtContent.Text = row["笔记内容"].ToString();
+                    frm_viewdetail.txtContent.BodyInnerHTML = row["笔记内容"].ToString();
                     //frm_viewdetail.dateTimePicker1.Text = row["记录时间"].ToString();
                     //frm_viewdetail.txtDate.Text = row["记录时间"].ToString();
                     frm_viewdetail.lblDate.Text = row["记录时间"].ToString();
@@ -226,7 +227,7 @@ namespace My_NoteBook
                 //为查看准备数据
                 //frm_update.label5.Text = row["id"].ToString();
                 frm_update.txtTitle.Text = row["笔记标题"].ToString();
-                frm_update.txtContent.Text = row["笔记内容"].ToString();
+                frm_update.txtContent.BodyInnerHTML = row["笔记内容"].ToString();
                 frm_update.dateTimePicker1.Text = row["记录时间"].ToString();
                 frm_update.cmbClassification.Text = row["笔记分类"].ToString();
                 //frm_update.cmbCompany.Text = row["所在公司"].ToString();

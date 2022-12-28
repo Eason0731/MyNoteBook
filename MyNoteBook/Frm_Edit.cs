@@ -30,10 +30,10 @@ namespace My_NoteBook
             myCon.Open();
 
             string Title = "";
-            string Content = "";
+            string Content = txtContent.BodyInnerHTML;
             
             //if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "" || cmbCompany.Text =="")
-            if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "")
+            if (txtTitle.Text == "" || txtContent.BodyInnerHTML is null || cmbClassification.Text == "")
             {
                 MessageBox.Show("标题,内容或分类中有空值,空的笔记没有任何意义,是不会更新的！");
             }
@@ -51,7 +51,7 @@ namespace My_NoteBook
                 {
                     Title = txtTitle.Text; //若字符中不包含单引号，则还是按照文本框输入的字符进入更新
                 }
-
+                /*
                 if (txtContent.Text.Contains("'"))
                 {
                     Content = txtContent.Text.Replace("'", "''"); //将单引号被替换为两个单引号的结果，存到临时变量中，该临时变量作为更新内容。每次遇到有单引号的字符，则需要通过该方法去替换
@@ -61,6 +61,7 @@ namespace My_NoteBook
                 {
                     Content = txtContent.Text; //若字符中不包含单引号，则还是按照文本框输入的字符进入更新
                 }
+                */
 
 
                 // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库

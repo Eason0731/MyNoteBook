@@ -16,7 +16,6 @@ C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Re
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\MyNoteBook.exe
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\MyNoteBook.pdb
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\WinHtmlEditor.dll
-C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Release\WinHtmlEditor.pdb
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.AssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\MyNoteBook.csproj.SuggestedBindingRedirects.cache
 C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Release\My_NoteBook.Frm_AddNote.resources

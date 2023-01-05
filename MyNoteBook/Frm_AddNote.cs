@@ -43,7 +43,7 @@ namespace My_NoteBook
             string Title = "";
             string Content = txtContent.BodyInnerHTML;
             //if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "" || cmbCompany.Text == "")
-            if (txtTitle.Text == "" || txtContent.BodyInnerHTML is null || cmbClassification.Text == "")
+            if (txtTitle.Text == "" || txtContent.BodyInnerHTML == "<P>&nbsp;</P>" || txtContent.BodyInnerHTML is null || txtContent.BodyInnerHTML == "" || cmbClassification.Text == "")
             {
                 MessageBox.Show("标题,内容或者分类中有空值,空的笔记没有任何意义,是不会添加的！");
             }

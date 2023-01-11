@@ -1,0 +1,105 @@
+C:\MyNoteBook\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyNoteBook\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MyNoteBook\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\MyNoteBook\My Plan\bin\Debug\MyNoteBook.exe
+C:\MyNoteBook\My Plan\bin\Debug\MyNoteBook.pdb
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Properties.Resources.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\MyNoteBook.exe
+C:\MyNoteBook\My Plan\obj\x86\Debug\MyNoteBook.pdb
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_AutoDesk.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_ChinaTelecom.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_CovidVacations.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_Main.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_RiskRaider.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_ShanghaiInCovid.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\MyNoteBook\My Plan\obj\x86\Debug\My_NoteBook.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Main.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.pdb
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe
+C:\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.pdb
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Properties.Resources.resources
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MyNoteBook\MyNoteBook\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\bin\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\My_NoteBook.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\bin\Debug\MyNoteBook.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\bin\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\bin\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\My_NoteBook.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\MyNoteBook\MyNoteBook with SQLite\MyNoteBook\obj\x86\Debug\MyNoteBook.csprojAssemblyReference.cache
